@@ -6,10 +6,10 @@
 
 body {
   background-color: #02090a;
-  display: flex;
+   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 0;
+  /* align-items: center; */
+  /* margin: 0;  */
 }
 
 .container {
@@ -66,7 +66,7 @@ body {
 .tree {
   position: absolute;
   bottom: 0;
-  left: -920px;
+  left: -820px;
   width: 400px;
   height: 550px;
 }
@@ -165,6 +165,3 @@ hr {
   float: right;
 }
 
-.move_up {
-  transform: translateY(-50px); /* Adjust the value as needed */
-}
